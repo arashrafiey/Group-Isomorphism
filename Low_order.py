@@ -127,8 +127,9 @@ def Isomorphism (group_1, group_2):
     #print(list_1)
     #print(list_2)
     
-    # if list_1 != list_2 :
-    #    print("No group isomorphism")
+    if list_1 != list_2 :
+        return 
+         #print("No group isomorphism")
     #    exit()  
      
     ## Here we create the single lists :
